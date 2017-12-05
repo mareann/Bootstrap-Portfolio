@@ -4,12 +4,12 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Bootstrap Portfolio</title>
+  <title>Portfolio Bootstrap</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<!--   can override Bootstrap  -->
+  <!--   can override Bootstrap  -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
@@ -19,25 +19,26 @@
 <nav class="navbar navbar-default topBar">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" class="topName" href="#">Maryann Jordan</a>
+      <a class="navbar-brand topName">Maryann Jordan</a>
     </div>
     <div>
       <ul class="nav navbar-nav navbar-right">
-        <li><a class="itemNav" href="#">About</a></li>
- <!--        <li class="active"><a class="itemNav" href="#">About</a></li> -->
-        <li><a class="itemNav" href="#">Portfolio</a></li>
-        <li><a class="lastNav" href="#">Contact</a></li>
+        <li><a class="itemNav" href="index.html">About</a></li>
+        <li><a class="itemNav" href="portfolio.html">Portfolio</a></li>
+        <li><a class="lastNav" href="contact.html">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-  <div id="main-container" class="container">
 
-  	<div class="row">
+<div class="container"> 
+  <div id="main-container">
 
-        <!-- *** PORTFOLIO SECTION *** -->
-      	<div class="col-md-6 main-section">
+    <!-- Row 1 -->
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-12">
+        <div class="main-section">
 
       	  	<h1>Portfolio</h1>
      		<div class="work">
@@ -62,36 +63,28 @@
      		</div> -->
 
 		</div>  <!-- *** END PORTFOLIO SECTION *** -->
+       </div>
+      <!-- *** CONNECT SECTION *** -->
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div id="connect" class="sidebar">
 
-        <!-- *** CONNECT SECTION *** -->
-  		<div class="col-md-4">
-
-          <div id="connect" class="sidebar">
-
-            <h2>Connect with Me</h2>
-            <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-            <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-            <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-
-          </div>
-
-      </div> <!-- *** END CONNECT SECTION *** -->
-
-    </div> <!-- end row 1  -->
+          <h2>Connect with Me</h2>
+          <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+          <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+          <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md2">
+      </div>
+   </div> <!-- end row 1  -->
   </div>  <!-- main-container -->
-<!--   </div> -->
+ </div>   <!-- container -->
 
-<div id="footer">
+ <div id="footer">
     <div class="container">
-      <p class="text-muted">Place sticky footer content here.</p>
+      <p class="text-muted">Copyright &copy;2017 Maryann Jordan</p>
     </div>
-</div>
-
-<!-- <footer class="footer navbar-fixed-bottom">
-  <div class="container">
-        <p>Copyright &copy;2017 Maryann Jordan</p>
-  </div>
-</footer> -->
+ </div>
  
 </body>
 
